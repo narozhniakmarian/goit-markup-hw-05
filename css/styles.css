@@ -559,7 +559,11 @@ p {
   margin-bottom: 16px;
 }
 
-.subscribe-form {}
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
 
 .email-input {
   width: 264px;
@@ -584,6 +588,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
