@@ -820,7 +820,7 @@ p {
   fill: transparent;
 }
 
-.check:checked .check-border {
+.check-input:checked .check-border {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
