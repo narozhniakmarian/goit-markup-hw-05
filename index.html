@@ -466,12 +466,12 @@
         <div class="subscribe-cotainer">
           <p class="subscribe-title">Subscribe</p>
           <form action="subscribe" class="subscribe-form">
-            <label class="footer-input"></label>
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              class="email-input"
+            <label class="footer-input">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="email-input"
             /></label>
             <button type="submit" class="subscribe-btn">
               Subscribe
@@ -504,7 +504,7 @@
                 placeholder=""
                 required
               />
-              <svg width="18" height="18" class="modal-icons">
+              <svg width="18" height="24" class="modal-icons">
                 <use href="./images/icons2.svg#user-icon"></use>
               </svg>
             </div>
@@ -520,7 +520,7 @@
                 placeholder=""
                 required
               />
-              <svg class="modal-icons" width="18" height="18">
+              <svg class="modal-icons" width="24" height="18">
                 <use href="./images/icons2.svg#icon-tel"></use>
               </svg>
             </div>
@@ -536,25 +536,35 @@
                 placeholder=""
                 required
               />
-              <svg class="modal-icons" width="18" height="18">
+              <svg class="modal-icons" width="18" height="24">
                 <use href="./images/icons2.svg#icon-meil"></use>
               </svg>
             </div>
           </div>
           <div class="input-container area-box">
-            <label for="comment" class="label-input">Comment</label>
+            <label for="use-comment" class="label-input">Comment</label>
             <textarea
-              name="comment"
-              id="comment"
+              name="use-comment"
+              id="use-comment"
               class="modal-input area-input"
               placeholder="Text input"
             ></textarea>
           </div>
 
           <div class="check-container">
-            <input type="checkbox" id="check" class="check" />
-            <label for="check" class="check-label"
-              >I accept the terms and conditions of the
+            <input
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              class="check visually-hidden"
+            />
+            <label for="user-privacy" class="check-label"
+              ><span class="check-border"
+                ><svg class="icon-checkk" width="10" height="8">
+                  <use href="./images/icons2.svg#check-icon"></use></svg
+              ></span>
+              I accept the terms and conditions of the
               <a class="priv-policy">Privacy Policy</a></label
             >
           </div>
