@@ -600,7 +600,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -622,6 +621,7 @@ p {
 }
 
 .subscribe-icon {
+  margin-left: 16px;
   fill: #fff;
 }
 
