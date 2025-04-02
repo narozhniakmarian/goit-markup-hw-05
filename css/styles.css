@@ -824,7 +824,7 @@ p {
 .check-input:checked+.check-label>.check-border {
   background-color: #404bbf;
   border: none;
-  fill: #fdfcf4;
+  fill: #F4F4FD;
 }
 
 
